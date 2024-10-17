@@ -20,11 +20,11 @@ Here is the table showing the affected source file and harness for each vulnerab
 
 | CVE               | Source File Changed                           | Harness File Changed                                                                 |
 |-------------------|------------------------------------------------|-------------------------------------------------------------------------------------|
-| CVE-2018-16523    | FreeRTOS_TCP_Reception.c                       | test/cbmc/proofs/CheckOptionsOuter/Makefile.json                                     |
-| CVE-2018-16524    | FreeRTOS_TCP_Reception.c                       | test/cbmc/proofs/CheckOptions/CheckOptions_harness.c                                 |
-| CVE-2018-16525    | FreeRTOS_DNS_Parser.c                          | test/cbmc/proofs/ParseDNSReply/ParseDNSReply_harness.c                               |
-| CVE-2018-16527    | FreeRTOS_ICMP.c                                | test/cbmc/proofs/ICMP/ProcessICMPPacket/ProcessICMPPacket_harness.c                  |
-| CVE-2018-16600    | FreeRTOS_ARP.c                                 | test/cbmc/proofs/ARP/ARPProcessPacket/ARPProcessPacket_harness.c                     |
-| CVE-2018-16603    | FreeRTOS_TCP_IP.c                              | test/cbmc/proofs/parsing/ProcessReceivedTCPPacket/ProcessReceivedTCPPacket_harness.c |
+| CVE-2018-16523    | FreeRTOS_TCP_Reception.c                       | proofs/CheckOptionsOuter/Makefile.json                                     |
+| CVE-2018-16524    | FreeRTOS_TCP_Reception.c                       | proofs/CheckOptions/CheckOptions_harness.c                                 |
+| CVE-2018-16525    | FreeRTOS_DNS_Parser.c                          | proofs/ParseDNSReply/ParseDNSReply_harness.c                               |
+| CVE-2018-16527    | FreeRTOS_ICMP.c                                | proofs/ICMP/ProcessICMPPacket/ProcessICMPPacket_harness.c                  |
+| CVE-2018-16600    | FreeRTOS_ARP.c                                 | proofs/ARP/ARPProcessPacket/ARPProcessPacket_harness.c                     |
+| CVE-2018-16603    | FreeRTOS_TCP_IP.c                              | proofs/parsing/ProcessReceivedTCPPacket/ProcessReceivedTCPPacket_harness.c |
 
 
